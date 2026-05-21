@@ -8980,14 +8980,14 @@ prov:wasTranslatedFrom a owl:ObjectProperty ;
         "第十三修正案索赔"@zh-cn ;
     skos:definition "A Slavery Amendment claim is a legal assertion pertaining to the Thirteenth Amendment of the United States Constitution, which abolished slavery and involuntary servitude, except as punishment for a crime. This amendment represents a fundamental change in the nation's legal and social framework. A claim involving this amendment could arise in cases involving forced labor, human trafficking, or other situations where an individual's freedom is unjustly restricted or exploited." .
 
-:R1L3IueMeHCrxnDlOU2dRg a owl:ObjectProperty ;
+<R1L3IueMeHCrxnDlOU2dRg> a owl:ObjectProperty ;
     rdfs:label "folio:opposed" ;
+    rdfs:subPropertyOf <R7VtpAC807aOYLVtKmPvFRt> ;
+    skos:altLabel "contested",
+        "disputed",
+        "folio:contested",
+        "opposed" ;
     skos:definition "In the context of an argument, \"opposed\" refers to the stance taken against a particular claim, assertion, or position. An opposed argument counters or refutes the original claim by presenting contrary evidence, reasoning, or viewpoints. In debates or discussions, this oppositional stance is vital for ensuring a comprehensive exploration of the topic at hand." ;
-    rdfs:subPropertyOf :R7VtpAC807aOYLVtKmPvFRt ;
-    skos:altLabel "contested" ;
-    skos:altLabel "disputed" ;
-    skos:altLabel "folio:contested" ;
-    skos:altLabel "opposed" ;
     skos:prefLabel "folio:disputed" .
 
 <R1PY9E13YhPhV7QvMke50C> a owl:Class ;
@@ -77127,6 +77127,9 @@ O sweet virgin Mary."""^^xsd:string,
     rdfs:label "Lease Obligations" ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
+            owl:someValuesFrom <R8RfDzMtuMPdmNTonmhBxu> ],
+        [ a owl:Restriction ;
+            owl:onProperty rdfs:seeAlso ;
             owl:someValuesFrom <R9HPub0PMW2GODvjQ2PttbM> ],
         [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
@@ -77134,9 +77137,6 @@ O sweet virgin Mary."""^^xsd:string,
         [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
             owl:someValuesFrom <R8pNPutX0TN6DlEqkyZuxSw> ],
-        [ a owl:Restriction ;
-            owl:onProperty rdfs:seeAlso ;
-            owl:someValuesFrom <R8RfDzMtuMPdmNTonmhBxu> ],
         <ReM22WXGr33eO4jZitHsbw> ;
     skos:definition "Lease Obligations refer to the financial and contractual responsibilities that a lessee must fulfill as part of a lease agreement. These often include timely payment of rent, adherence to maintenance and use provisions, and compliance with any terms for lease termination or renewal" .
 
@@ -89127,7 +89127,7 @@ Jealous God Declaration (Exodus 20:5)"""^^xsd:string ;
     rdfs:label "Creation of Land Animals" ;
     rdfs:subClassOf <ROO0zEuepCor1YPAFtL0cV> .
 
-:RMlGbtYdZZahXqKLB6hI5L a owl:AnnotationProperty ;
+<RMlGbtYdZZahXqKLB6hI5L> a owl:AnnotationProperty ;
     rdfs:label "bibo:shortTitle" ;
     rdfs:comment "Used for short-form abbreviations"@en ;
     skos:example "CIC1983-LA" .
@@ -122580,13 +122580,13 @@ In keeping with the core technology focus of plastics, lamination of plastics fi
 
 <http://webprotege.stanford.edu/RBTE2mUxX4WZjAu5EkKF4MA> a owl:Class ;
     rdfs:label "Authority Level"@en ;
-    rdfs:subClassOf :RDt4vQCYDfY0R9fZ5FNnTbj ;
-    rdfs:subClassOf :RkaH1u58Roj4YNWXPG0Cap ;
-    skos:altLabel "Doctrinal Authority Level"@en ;
-    skos:altLabel "Magisterial Authority Grade"@en ;
-    skos:altLabel "Magisterial Weight" ;
-    skos:altLabel "Normative Force Level" ;
-    skos:altLabel "Teaching Authority Level" ;
+    rdfs:subClassOf <RDt4vQCYDfY0R9fZ5FNnTbj>,
+        <RkaH1u58Roj4YNWXPG0Cap> ;
+    skos:altLabel "Magisterial Weight",
+        "Normative Force Level",
+        "Teaching Authority Level",
+        "Doctrinal Authority Level"@en,
+        "Magisterial Authority Grade"@en ;
     skos:definition "Authority Level is a controlled designation that classifies a Church teaching, act, or document by its magisterial weight and the kind of assent it calls for. It helps distinguish whether a statement functions as definitive doctrine, authoritative teaching, prudential judgment, disciplinary norm, or other ecclesial guidance." .
 
 <--siJUzaRTGX0W0PqH06lw> a owl:Class ;
@@ -134367,19 +134367,19 @@ The industry groups within the subsector are defined in terms of their activitie
     skos:definition "The Internal Revenue Service (IRS) is the revenue service of the United States federal government. The government agency is a bureau of the Department of the Treasury." ;
     skos:prefLabel "IRS" .
 
-:R73hoH1RXYjBTYiGfolpsAF a owl:Class ;
+<R73hoH1RXYjBTYiGfolpsAF> a owl:Class ;
     rdfs:label "Event"@en ;
     rdfs:subClassOf owl:Thing ;
-    skos:altLabel "Ereignis"@de-de ;
-    skos:altLabel "Event"@en-gb ;
-    skos:altLabel "Evento"@es-es ;
-    skos:altLabel "Evento"@es-mx ;
-    skos:altLabel "Événement"@fr-fr ;
-    skos:altLabel "אירוע"@he-il ;
-    skos:altLabel "घटना"@hi-in ;
-    skos:altLabel "イベント"@ja-jp ;
-    skos:altLabel "Evento"@pt-br ;
-    skos:altLabel "事件"@zh-cn ;
+    skos:altLabel "Ereignis"@de-de,
+        "Event"@en-gb,
+        "Evento"@es-es,
+        "Evento"@es-mx,
+        "Événement"@fr-fr,
+        "אירוע"@he-il,
+        "घटना"@hi-in,
+        "イベント"@ja-jp,
+        "Evento"@pt-br,
+        "事件"@zh-cn ;
     skos:definition "A matter's events, as well as collections of those events (often noted as \"phases\")."@en .
 
 <R78PKqeEIORKpYVwEfC4aG4> a owl:Class ;
@@ -136608,7 +136608,7 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
     skos:hiddenLabel "KP" ;
     skos:prefLabel "North Korea" .
 
-:RDXLO9MacR7nBfLLV0hskma a owl:Class ;
+<RDXLO9MacR7nBfLLV0hskma> a owl:Class ;
     rdfs:label "Operational Concepts"@en ;
     skos:definition "Operational Concepts are standardized concepts that describe how Church-related activities, records, communications, and processes function in practice. They provide implementation-level structure—such as identifiers, statuses, languages, modalities, and transactional attributes—without asserting doctrine or moral teaching."@en .
 
@@ -136670,9 +136670,9 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
         "Reivindicações trabalhistas"@pt-br,
         "劳动索赔"@zh-cn .
 
-:RhBgnef56iLBXYfPqWQE41 a owl:Class ;
+<RhBgnef56iLBXYfPqWQE41> a owl:Class ;
     rdfs:label "Financial Concepts and Metrics"@en ;
-    rdfs:subClassOf :RDXLO9MacR7nBfLLV0hskma ;
+    rdfs:subClassOf <RDXLO9MacR7nBfLLV0hskma> ;
     skos:definition "Financial and operational indicators designed to evaluate the performance of engagements or transactions."@en .
 
 <RuDAbRiNW105SQoqb1XZ4c> a owl:Class ;
@@ -138252,6 +138252,25 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
         "美国宪法索赔"@zh-cn ;
     skos:definition "U.S. Constitutional Claims are claims that a person's rights guaranteed by the Constitution have been infringed upon by a government entity or individual acting under the authority of the government." .
 
+<R8CdMpOM0RmyrgCCvbpiLS0> a owl:Class ;
+    rdfs:label "Actor"^^xsd:string ;
+    dc:source <https://github.com/alea-institute/FOLIO> ;
+    rdfs:subClassOf owl:Thing ;
+    skos:altLabel "Actor"^^xsd:string,
+        "Player",
+        "Player Role",
+        "Schauspieler / Spieler"@de-de,
+        "Actor / Player"@en-gb,
+        "Actor / Jugador"@es-es,
+        "Actor / Jugador"@es-mx,
+        "Acteur / Joueur"@fr-fr,
+        "שחקן / שחקנית"@he-il,
+        "अभिनेता / खिलाड़ी"@hi-in,
+        "俳優 / プレイヤー"@ja-jp,
+        "Ator / Jogador"@pt-br,
+        "演员 / 玩家"@zh-cn ;
+    skos:definition "Actor is an entity capable of initiating, performing, or bearing responsibility for actions within moral, legal, ecclesial, or social systems. An Actor may be a person, collective body, or transcendent agent whose actions carry meaning, authority, or consequence."^^xsd:string .
+
 <RA4Ca832861b2FADe1603e78> a owl:Class ;
     rdfs:label "Portugal" ;
     dc:identifier "EUR-PT" ;
@@ -138284,25 +138303,6 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
     rdfs:subClassOf <R5E0c679BE29e3F86383A5bc> ;
     skos:hiddenLabel "NO" ;
     skos:prefLabel "Norway" .
-
-<R8CdMpOM0RmyrgCCvbpiLS0> a owl:Class ;
-    rdfs:label "Actor"^^xsd:string ;
-    dc:source <https://github.com/alea-institute/FOLIO> ;
-    rdfs:subClassOf owl:Thing ;
-    skos:altLabel "Actor"^^xsd:string,
-        "Player",
-        "Player Role",
-        "Schauspieler / Spieler"@de-de,
-        "Actor / Player"@en-gb,
-        "Actor / Jugador"@es-es,
-        "Actor / Jugador"@es-mx,
-        "Acteur / Joueur"@fr-fr,
-        "שחקן / שחקנית"@he-il,
-        "अभिनेता / खिलाड़ी"@hi-in,
-        "俳優 / プレイヤー"@ja-jp,
-        "Ator / Jogador"@pt-br,
-        "演员 / 玩家"@zh-cn ;
-    skos:definition "Actor is an entity capable of initiating, performing, or bearing responsibility for actions within moral, legal, ecclesial, or social systems. An Actor may be a person, collective body, or transcendent agent whose actions carry meaning, authority, or consequence."^^xsd:string .
 
 <R91D98b850c3219Ceab1E7a3> a owl:Class ;
     rdfs:label "Taiwan" ;
@@ -138629,6 +138629,26 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
         "第1条要求"@zh-cn ;
     skos:definition "An Article I claim refers to a legal argument based on the provisions of Article I of the U.S. Constitution, which outlines the powers, limits, and functions of the legislative branch. Such a claim might arise when there is a dispute over the exercise or limitation of these powers, including matters related to taxation, regulation of commerce, or the creation and enforcement of laws." .
 
+<RDt4vQCYDfY0R9fZ5FNnTbj> a owl:Class ;
+    rdfs:label "Document / Artifact"@en ;
+    dc:source <https://github.com/alea-institute/FOLIO> ;
+    rdfs:subClassOf owl:Thing ;
+    skos:altLabel "Dokument / Artefakt"@de-de,
+        "Artifact"@en,
+        "Document"@en,
+        "Document / Artifact"@en-gb,
+        "Documento / Artefacto"@es-es,
+        "Documento / Artefacto"@es-mx,
+        "Document / Artefact"@fr-fr,
+        "מסמך / ארטיפקט"@he-il,
+        "दस्तावेज़ / आर्टिफैक्ट"@hi-in,
+        "दस्तावेज़ / उत्पाद"@hi-in,
+        "दस्तावेज़ / वस्तु"@hi-in,
+        "ドキュメント / アーティファクト"@ja-jp,
+        "Documento / Artefato"@pt-br,
+        "文档 / 工件"@zh-cn ;
+    skos:definition "A written, drawn, presented, or memorialized representation of thought or expression, including evidence such as recordings and other artifacts." .
+
 <R0E23afA37025BA0e2609ffe> a owl:Class ;
     rdfs:label "Argentina" ;
     dc:identifier "SAM-AR" ;
@@ -138666,26 +138686,6 @@ Establishments primarily engaged in manufacturing beverages are classified in Su
             owl:someValuesFrom <R42023eC7077dC80b6d4Cc73> ],
         <R0TZk2qCI4HPwDl3e9FoOo> ;
     skos:definition "Civil rights are the rights of individuals to receive equal treatment and protection under the law, typically focusing on issues such as discrimination, freedom of speech, and the right to vote. These rights are enshrined in national laws and constitutions and are designed to protect individuals from unfair treatment or discrimination by the government or private organizations" .
-
-:RDt4vQCYDfY0R9fZ5FNnTbj a owl:Class ;
-    rdfs:label "Document / Artifact"@en ;
-    rdfs:subClassOf owl:Thing ;
-    dc:source <https://github.com/alea-institute/FOLIO> ;
-    skos:altLabel "Artifact"@en ;
-    skos:altLabel "Document"@en ;
-    skos:altLabel "Dokument / Artefakt"@de-de ;
-    skos:altLabel "Document / Artifact"@en-gb ;
-    skos:altLabel "Documento / Artefacto"@es-es ;
-    skos:altLabel "Documento / Artefacto"@es-mx ;
-    skos:altLabel "Document / Artefact"@fr-fr ;
-    skos:altLabel "מסמך / ארטיפקט"@he-il ;
-    skos:altLabel "दस्तावेज़ / आर्टिफैक्ट"@hi-in ;
-    skos:altLabel "दस्तावेज़ / उत्पाद"@hi-in ;
-    skos:altLabel "दस्तावेज़ / वस्तु"@hi-in ;
-    skos:altLabel "ドキュメント / アーティファクト"@ja-jp ;
-    skos:altLabel "Documento / Artefato"@pt-br ;
-    skos:altLabel "文档 / 工件"@zh-cn ;
-    skos:definition "A written, drawn, presented, or memorialized representation of thought or expression, including evidence such as recordings and other artifacts." .
 
 <RE9Eede645ffeB9A7d241294> a owl:Class ;
     rdfs:label "Cambodia" ;
