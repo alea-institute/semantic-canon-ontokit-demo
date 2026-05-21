@@ -58382,12 +58382,9 @@ Capital Punishment Allowances (Genesis 9:6)"""^^xsd:string ;
         "不方便管辖原则"@zh-cn ;
     skos:definition "A legal doctrine that allows a court to dismiss a case if it determines that another court, with jurisdiction over the case, is a more appropriate forum for the case to be heard." .
 
-<RBPpt2TgiFM9JSOSkJwm54l> a owl:Class ;
-    rdfs:label "Fiscal Year" ;
-    rdfs:subClassOf <RhBgnef56iLBXYfPqWQE41> ;
-    skos:altLabel "Accounting Year",
-        "Financial Year",
-        "Tax Year" ;
+:RBPpt2TgiFM9JSOSkJwm54l a owl:Class ;
+    rdfs:label "Fiscal Year"@en ;
+    rdfs:subClassOf :RhBgnef56iLBXYfPqWQE41 ;
     skos:definition "A fiscal year is a 12-month period used by governments, businesses, and organizations for accounting and financial reporting purposes. It may differ from the calendar year and is set according to the specific financial and operational needs of the entity." .
 
 <RBPyCdQw1CbjxQrZ7pkVHYN> a owl:Class ;
