@@ -58382,9 +58382,9 @@ Capital Punishment Allowances (Genesis 9:6)"""^^xsd:string ;
         "不方便管辖原则"@zh-cn ;
     skos:definition "A legal doctrine that allows a court to dismiss a case if it determines that another court, with jurisdiction over the case, is a more appropriate forum for the case to be heard." .
 
-:RBPpt2TgiFM9JSOSkJwm54l a owl:Class ;
+<RBPpt2TgiFM9JSOSkJwm54l> a owl:Class ;
     rdfs:label "Fiscal Year"@en ;
-    rdfs:subClassOf :RhBgnef56iLBXYfPqWQE41 ;
+    rdfs:subClassOf <RhBgnef56iLBXYfPqWQE41> ;
     skos:definition "A fiscal year is a 12-month period used by governments, businesses, and organizations for accounting and financial reporting purposes. It may differ from the calendar year and is set according to the specific financial and operational needs of the entity." .
 
 <RBPyCdQw1CbjxQrZ7pkVHYN> a owl:Class ;
@@ -77124,6 +77124,9 @@ O sweet virgin Mary."""^^xsd:string,
     rdfs:label "Lease Obligations" ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
+            owl:someValuesFrom <R8pNPutX0TN6DlEqkyZuxSw> ],
+        [ a owl:Restriction ;
+            owl:onProperty rdfs:seeAlso ;
             owl:someValuesFrom <R8RfDzMtuMPdmNTonmhBxu> ],
         [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
@@ -77131,9 +77134,6 @@ O sweet virgin Mary."""^^xsd:string,
         [ a owl:Restriction ;
             owl:onProperty rdfs:seeAlso ;
             owl:someValuesFrom <R1lCp75IEE0Ktih8rYlIK5> ],
-        [ a owl:Restriction ;
-            owl:onProperty rdfs:seeAlso ;
-            owl:someValuesFrom <R8pNPutX0TN6DlEqkyZuxSw> ],
         <ReM22WXGr33eO4jZitHsbw> ;
     skos:definition "Lease Obligations refer to the financial and contractual responsibilities that a lessee must fulfill as part of a lease agreement. These often include timely payment of rent, adherence to maintenance and use provisions, and compliance with any terms for lease termination or renewal" .
 
