@@ -113671,21 +113671,22 @@ Bulk transportation of mail on contract to the Postal Service is not included he
 
 <Rh895FOUgLMfrylaO713w1> a owl:Class ;
     rdfs:label "God the Son" ;
-    rdfs:subClassOf <R7xwsOkoji8EZRUrS511KGF> ;
-    skos:altLabel "Eternal Son"^^xsd:string,
-        "Logos"^^xsd:string,
-        "Messiah"^^xsd:string,
-        "Ogottenly-Ben Son"^^xsd:string,
-        "Second Person of the Trinity"^^xsd:string,
-        "Son of Man"^^xsd:string,
-        "The Son"^^xsd:string,
-        "The Word"^^xsd:string ;
-    skos:definition "God the Son is the second Person of the Holy Trinity, eternally begotten of the Father and consubstantial with him. In the Incarnation, the Son assumed a human nature as Jesus Christ for the salvation of humanity."^^xsd:string ;
-    skos:example "Catholic doctrine teaches that God the Son became incarnate as Jesus Christ."^^xsd:string,
-        "Christians worship God the Son together with the Father and the Holy Spirit."^^xsd:string,
-        "The Creed proclaims the Son as eternally begotten of the Father."^^xsd:string,
-        "The Gospel of John identifies God the Son as the Word made flesh."^^xsd:string ;
-    skos:prefLabel "Jesus"^^xsd:string .
+    rdfs:subClassOf :R7xwsOkoji8EZRUrS511KGF ;
+    skos:prefLabel "Jesus" ;
+    skos:altLabel "Eternal Son" ;
+    skos:altLabel "Logos" ;
+    skos:altLabel "Messiah" ;
+    skos:altLabel "Ogottenly-Ben Son" ;
+    skos:altLabel "Second Person of the Trinity" ;
+    skos:altLabel "Son of Man" ;
+    skos:altLabel "The Son" ;
+    skos:altLabel "The Word" ;
+    skos:altLabel "Prince of Peace"@en ;
+    skos:definition "God the Son is the second Person of the Holy Trinity, eternally begotten of the Father and consubstantial with him. In the Incarnation, the Son assumed a human nature as Jesus Christ for the salvation of humanity." ;
+    skos:example "Catholic doctrine teaches that God the Son became incarnate as Jesus Christ." ;
+    skos:example "Christians worship God the Son together with the Father and the Holy Spirit." ;
+    skos:example "The Creed proclaims the Son as eternally begotten of the Father." ;
+    skos:example "The Gospel of John identifies God the Son as the Word made flesh." .
 
 <RhNl96zoCgI6solrSRV55Z> a owl:Class ;
     rdfs:label "Dangerous Condition of Premises" ;
