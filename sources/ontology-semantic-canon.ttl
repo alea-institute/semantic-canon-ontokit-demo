@@ -10123,7 +10123,7 @@ prov:wasTranslatedFrom a owl:ObjectProperty ;
     skos:prefLabel "Tamil Nadu" .
 
 <R260045C217a98CBd28916cc> a owl:Class ;
-    rdfs:label "Holy See (Apostolic See)"@en ;
+    rdfs:label "Holy See"@en ;
     rdfs:subClassOf :R5E0c679BE29e3F86383A5bc ;
     rdfs:subClassOf :RDMsL8T3t9qIU3TOdiJvQBN ;
     dc:identifier "EUR-VA" ;
