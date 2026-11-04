@@ -10123,21 +10123,21 @@ prov:wasTranslatedFrom a owl:ObjectProperty ;
     skos:prefLabel "Tamil Nadu" .
 
 <R260045C217a98CBd28916cc> a owl:Class ;
-    rdfs:label "Holy See" ;
+    rdfs:label "Holy See (Apostolic See)"@en ;
+    rdfs:subClassOf :R5E0c679BE29e3F86383A5bc ;
+    rdfs:subClassOf :RDMsL8T3t9qIU3TOdiJvQBN ;
     dc:identifier "EUR-VA" ;
-    rdfs:subClassOf <R5E0c679BE29e3F86383A5bc>,
-        <RDMsL8T3t9qIU3TOdiJvQBN> ;
-    skos:altLabel "Apostolic See"^^xsd:string,
-        "Roman See"^^xsd:string,
-        "See of Rome"^^xsd:string,
-        "The Holy See"^^xsd:string,
-        "the" ;
-    skos:definition "The Holy See is the supreme governing authority of the Catholic Church, constituted by the Roman Pontiff and the institutions through which he exercises his universal pastoral office. It possesses canonical primacy over the Church and international legal personality distinct from, though closely associated with, Vatican City State."^^xsd:string ;
-    skos:example "Diplomatic relations are maintained between states and the Holy See."^^xsd:string,
-        "The Holy See appoints bishops throughout the world."^^xsd:string,
-        "The Holy See issues universal norms through papal documents."^^xsd:string ;
+    skos:prefLabel "The Vatican" ;
+    skos:altLabel "Apostolic See" ;
+    skos:altLabel "Roman See" ;
+    skos:altLabel "See of Rome" ;
+    skos:altLabel "The Holy See" ;
+    skos:altLabel "the" ;
     skos:hiddenLabel "VA" ;
-    skos:prefLabel "The Vatican"^^xsd:string .
+    skos:definition "The Holy See is the supreme governing authority of the Catholic Church, constituted by the Roman Pontiff and the institutions through which he exercises his universal pastoral office. It possesses canonical primacy over the Church and international legal personality distinct from, though closely associated with, Vatican City State." ;
+    skos:example "Diplomatic relations are maintained between states and the Holy See." ;
+    skos:example "The Holy See appoints bishops throughout the world." ;
+    skos:example "The Holy See issues universal norms through papal documents." .
 
 <R265a4e7E21078DCe6aC11ec> a owl:Class ;
     rdfs:label "Salaj" ;
