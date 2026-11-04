@@ -1,3 +1,6 @@
+> [!WARNING]
+> **OntoKit demo copy, not the official ontology.** This repository receives edits approved on the OntoKit demo site. Its commits are demo suggestions, never official Catholic Semantic Canon changes. The official ontology lives at [CatholicOS/ontology-semantic-canon](https://github.com/CatholicOS/ontology-semantic-canon).
+
 # Catholic Semantic Canon
 
 This repository contains a formal ontology designed to model the hierarchical and relational structure of the Catholic **Deposit of Faith**.
